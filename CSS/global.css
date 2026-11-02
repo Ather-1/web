@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --bg-light: rgb(224, 224, 224);
+    --bg-dark: black;
+    --light: white;
+    --dark: black;
+    --blue: rgb(0, 3, 151);
+    --amber: #d97706;
+    --gray: #708090;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    background-color: var(--bg-light);
+    font-size: 62.5%;
+}
+.LRP {
+    width: 95%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Inter';
+    font-size: 8.2rem;
+    font-weight: 500;
+    line-height: 1.15;
+}
+h6 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+    color: var(--dark);
+}
+
+
+
+
+a {
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    color: var(--gray);
+}
+button {
+    font-family: 'Inter';
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    padding: 1.2rem 3.2rem;
+    border-radius: 0.6rem;
+    border: 1px solid var(--light);
+    background-color: transparent;
+    color: var(--light);
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 1400px) {
+    .LRP {max-width: 1200px;}
+    h1 {font-size: 6.2rem;}
+    h6 {font-size: 1.2rem;}
+    p {font-size: 1.3rem;}
+}
+@media (max-width: 991px) {
+    p {font-size: 1.2rem;}
+}
+
+@media (max-width: 576px) {
+    h1 {font-size: 4.8rem;}   
+}
